@@ -164,6 +164,63 @@ cout<<"break even point is :"<<bep<<endl;
     cout << "final price: " << finalprice << endl;
 
 
+  cout << " problem 16" << endl;
+    double a1, a2, a3, a4, a5;
+    cout << "Please enter the grade points:" << endl;
+    cin >> a1 >> a2>> a3 >> a4 >> a5;
+    int b1, b2, b3, b4, b5;
+    cout << "Please enter the credit hours:" << endl;
+    cin >> b1 >> b2 >> b3 >> b4>> b5;
+ double averagegpa = (a1*b1 + a2*b2 + a3*b3 + a4*b4 + b5*a5) / (b1 + b2 + b3 + b4 + b5);
+    cout << "Average GPA: " << averagegpa << endl;
+
+    cout<<" problem 17"<<endl;
+    int ip;
+    cout<<" enter initial price ";
+cin>>ip;
+    int fp;
+    cout<<"Please enter final price ";
+    cin>>fp;
+    double ir = ((fp-ip)/ip)*100.0;
+    cout<<"inflation rate: "<<ir<<endl;
+
+    cout <<" problem 18"<<endl;
+    int otf;
+    cout<<"original tuition fee :"<<endl;
+    cin>>otf;
+    int sr;
+    cout<<" scholarship rate :"<<endl;
+    cin>>sr;
+    int ftf=(sr/100.0)*otf;
+    cout<<" final tuition fee :"<<ftf<<endl;
+
+    cout<<" problem 19"<<endl;
+    int pa;
+    cout<<"Enter principal amount: ";
+cin>>pa;
+    int roi;
+    cout<<"Enter rate of interest: ";
+cin>>roi;
+    int tiy;
+    cout<<"Enter time in years: ";
+cin>>tiy;
+    int si=pa*roi*tiy/100.0;
+    cout<<"simple interest: "<<si<<endl;
+
+cout<<"problem 20"<<endl;
+    int prin;
+    cout<<"Enter Principal: ";
+cin>>prin;
+    int air;
+    cout<<"Enter Annual interest rate: ";
+cin>>air;
+    int ciay=prin*(1+air/100.0)*(1+air/100.0)-prin;
+    cout<<"compound interest after yaers: "<<ciay<<endl;
+
+
+
+
+
 
 
 
